@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='hidemyass',
     version='0.1',
-    packages=['axh', 'axh.hidemyass'],
+    packages=['axh', 'axh.proxy'],
     url='axh.pwnz.org',
     license='',
     author='Alex Haslehurst',
