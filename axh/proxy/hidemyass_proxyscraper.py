@@ -78,7 +78,7 @@ class HideMyAssProxyScraper:
         fields = {i: self.__match_enum(ProxyField, self.FieldPatterns, header, None)
                   for i, header in enumerate(th.getText() for th in table.find("thead").find("tr").find_all("th"))}
 
-        if None in fields.keys():
+        if None in fields.values():
             raise Exception("Missing field")
 
         self.proxies = [Proxy({field: self.__get_field(field, cell) for field, cell in
