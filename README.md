@@ -1,4 +1,4 @@
 hidemyass
 =========
 
-Parser for http://proxylist.hidemyass.com/
+Scraper for http://proxylist.hidemyass.com/
