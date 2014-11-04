@@ -1,10 +1,11 @@
 from distutils.core import setup
 
 setup(
-    name='hidemyass',
+    name='hide_my_ass',
     version='0.1',
     packages=['axh', 'axh.proxy'],
-    url='axh.pwnz.org',
+    namespace_packages=['axh'],
+    url='https://github.com/axle-h/hide-my-ass',
     license='',
     author='Alex Haslehurst',
     author_email='alex.haslehurst@gmail.com',
